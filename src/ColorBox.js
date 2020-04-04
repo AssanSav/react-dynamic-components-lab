@@ -15,7 +15,7 @@ export default class ColorBox extends Component {
           <ColorBox opacity={ this.props.opacity - 0.1 }/>
         </div>
       )
-    } else if (this.props.opacity < 0.2) {
+    } else {
       return null
     }
    
